@@ -1,10 +1,14 @@
 var btnClick = document.querySelector("#btn-click");
 var txtInput = document.getElementById("txt-input");
+var output = document.querySelector("#output");
 
-btnClick.addEventListener("click", function clickHandler() {
-    console.log("Clicked!");
-    console.log(txtInput.value);
-})
+btnClick.addEventListener("click", clickHandler)
+
+function clickHandler() {
+
+    output.innerText = "Hey I am fine " + txtInput.value;
+}
+
 
 
 // var textAreaInput = document.querySelector("textarea");
@@ -20,7 +24,6 @@ btnClick.addEventListener("click", function clickHandler() {
 // inputBtn.addEventListener('click', function inputbtn() {
 //     console.log("input btn clicked");
 // })
-
 
 // var translator = document.querySelector("[translator]");
 

@@ -5,18 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript</title>
+    <style>
+        textarea {
+            width: 80%;
+            margin: auto 2rem;
+            padding: 1rem;
+            height: 20vh;
+        }
+
+        #btn-click {
+            width: 80%;
+            padding: 1rem ;
+            margin: 2rem;
+            background-color: #1d139cc1;
+            border: none;
+            border-radius: 0.5rem;
+            color: white;
+            font-size: 1rem;
+            font-family: monospace;
+            font-weight: bold;
+        }
+
+        .showOutput {
+            font-family: monospace;
+            font-size: 1.5rem;
+            margin: 0rem 2rem ;
+        }
+
+        #output {
+            border: 1px solid gray;
+            height: 30vh;
+            margin: 2rem;
+            padding: 1rem;
+        }
+
+    </style>
   </head>
   <body>
     <h1>Hello JavaScript</h1>
+    <textarea id="txt-input" cols="30" rows="10"></textarea>
     <button id="btn-click">Click Me</button>
 
-    <textarea id="txt-input" cols="30" rows="10"></textarea>
-
-    <textarea cols="30" rows="10"></textarea>
-
-    <button class="btn-primary">Primary Button</button>
-
-    <button id="input-btn">Input btn</button>
+    <div class="showOutput">Output will be show here 👇</div>
+    <div id="output">Hey I am here</div>
 
     <script src="script.js"></script>
   </body>
