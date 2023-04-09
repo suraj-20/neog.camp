@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #a21caf;
+    --font : 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem auto 7rem;
+    text-align: center;
+    font-family: var(--font);
+}
+
+.heading {
+    color: var(--primary-color);
+    font-weight: bold;
+    margin: 0rem auto 1rem;
+}
+
+.peragraph {
+    font-size: large;
+    font-weight: 500;
+    margin: 1rem;
+}
+
+.label {
+    display: block;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.inputArea {
+    border: 2px solid var(--primary-color);
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    outline: var(--primary-color);
+}
+
+.checkBtn {
+    display: block;
+    margin: auto ;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--primary-color);
+    outline: white;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#errorMessage {
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+.table {
+    margin: auto;
+    width: 50%;
+    border-collapse: collapse;
+    text-align: justify;
+}
+
+.table caption {
+    margin: 1rem 0rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+th, td {
+    border: 2px solid var(--primary-color);
+    border-collapse: collapse;
+    width: 0;
+    padding: 0.4rem ;
+}
