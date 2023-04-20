@@ -1,8 +1,9 @@
 import React from "react";
 
-function Greet() {
+function Greet(props) {
+    console.log(props)
     return (
-        <h1>Hello JavaScript</h1>
+        <h1>Hello {props.name}</h1>
     )
 }
 
