@@ -1,9 +1,9 @@
 import React from "react";
 
 function Greet(props) {
-    console.log(props)
+    const {name, heroName} = props
     return (
-        <h1>Hello {props.name}</h1>
+        <h1>Hello {name} a.k.a {heroName}</h1>
     )
 }
 
