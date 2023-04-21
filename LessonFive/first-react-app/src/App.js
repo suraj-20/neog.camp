@@ -4,21 +4,25 @@ import Greet from "./Components/Greet";
 import Welcome from './Components/Welcome';
 import Message from "./Components/Message";
 import Counter from "./Components/Counter";
-
+import FunctionClick from "./Components/functionClick";
+import ClassClick from "./Components/classClick";
 class App extends Component {
   render() {
     return (
       <div className="App">
         <h1>Hello world</h1>
 
-        <Counter />
+        <FunctionClick />
+        <ClassClick />
+
+        {/* <Counter /> */}
 
         {/* <Message /> */}
 
-        <Greet name="Java" heroName="Rama" />
+        {/* <Greet name="Java" heroName="Rama" /> */}
         {/* <Greet name="Bruce" />
         <Greet name="Diana" /> */}
-        <Welcome name="JAva" heroName="Krishna" />
+        {/* <Welcome name="JAva" heroName="Krishna" /> */}
         {/* <Welcome name="Bruce" />
         <Welcome name="Diana" /> */}
       </div>
