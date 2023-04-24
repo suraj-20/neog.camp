@@ -1,28 +1,29 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 class UserGreeting extends Component {
+  constructor(props) {
+    super(props);
 
-    constructor(props) {
-      super(props)
-    
-      this.state = {
-         isLoggedIn: false
-      }
-    }
-    
+    this.state = {
+      isLoggedIn: true,
+    };
+  }
 
   render() {
+    return this.state.isLoggedIn ? (
+      <div>Welcome JavaScript</div>
+    ) : (
+      <div>Welcome Guest</div>
+    );
 
-    let message;
-    if (this.state.isLoggedIn) {
-        return <div>Welcome JavaScript</div>
-    } else {
-        return <div>Welcome Guest</div>
-    }
+    // let message;
+    // if (this.state.isLoggedIn) {
+    //   return <div>Welcome JavaScript</div>;
+    // } else {
+    //   return <div>Welcome Guest</div>;
+    // }
 
-    return (
-        <div>{message}</div>
-    )
+    // return <div>{message}</div>;
 
     // if(this.state.isLoggedIn) {
     //     return <div>Welcome JavaScript</div>
@@ -38,4 +39,4 @@ class UserGreeting extends Component {
   }
 }
 
-export default UserGreeting
+export default UserGreeting;
