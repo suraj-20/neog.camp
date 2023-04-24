@@ -8,29 +8,25 @@ import FunctionClick from "./Components/functionClick";
 import ClassClick from "./Components/classClick";
 import ParentComponent from "./Components/ParentComponent";
 import EventBind from "./Components/EventBind";
+import UserGreeting from "./Components/UserGreeting";
 class App extends Component {
   render() {
     return (
       <div className="App">
         <h1>Hello world</h1>
-
+        <UserGreeting />
         {/* <ParentComponent /> */}
-
-        <EventBind />
-
+        {/* <EventBind /> */}
         {/* <FunctionClick /> */}
         {/* <ClassClick /> */}
-
         {/* <Counter /> */}
-
         {/* <Message /> */}
-
         {/* <Greet name="Java" heroName="Rama" /> */}
-        {/* <Greet name="Bruce" />
-        <Greet name="Diana" /> */}
+        {/* <Greet name="Bruce" /> */}
+        {/* <Greet name="Diana" /> */}
         {/* <Welcome name="JAva" heroName="Krishna" /> */}
-        {/* <Welcome name="Bruce" />
-        <Welcome name="Diana" /> */}
+        {/* <Welcome name="Bruce" /> */}
+        {/* <Welcome name="Diana" /> */}
       </div>
     );
   }
