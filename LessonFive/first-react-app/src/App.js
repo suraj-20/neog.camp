@@ -6,14 +6,17 @@ import Message from "./Components/Message";
 import Counter from "./Components/Counter";
 import FunctionClick from "./Components/functionClick";
 import ClassClick from "./Components/classClick";
+import ParentComponent from "./Components/ParentComponent";
 class App extends Component {
   render() {
     return (
       <div className="App">
         <h1>Hello world</h1>
 
-        <FunctionClick />
-        <ClassClick />
+        <ParentComponent />
+
+        {/* <FunctionClick /> */}
+        {/* <ClassClick /> */}
 
         {/* <Counter /> */}
 
