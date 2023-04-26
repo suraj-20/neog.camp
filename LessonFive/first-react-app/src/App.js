@@ -12,12 +12,14 @@ import UserGreeting from "./Components/UserGreeting";
 import NameList from "./Components/NameList";
 import Stylesheet from "./Components/Stylesheet";
 import Form from "./Components/Form";
+import RefsDemo from "./Components/RefsDemo";
 class App extends Component {
   render() {
     return (
       <div className="App">
         <h1>Hello world</h1>
-        <Form />
+        <RefsDemo />
+        {/* <Form /> */}
         {/* <Stylesheet primary={true} /> */}
         {/* <NameList /> */}
         {/* <UserGreeting /> */}
