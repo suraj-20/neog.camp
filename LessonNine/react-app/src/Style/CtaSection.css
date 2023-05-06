@@ -1,0 +1,15 @@
+.cta-section {
+    padding: 100px var(--padding-inline-section);
+    background-color: #183b56;
+}
+
+.cta-section-container {
+    flex-direction: column;
+    gap: 30px;
+    column-rule: white;
+}
+
+.cta-section-container p {
+    color: #fff;
+    margin-top: 20px;
+}

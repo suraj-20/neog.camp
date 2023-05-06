@@ -1,0 +1,24 @@
+@import '../App.css';
+
+.companies-section {
+    padding: 40px var(--padding-inline-section);
+}
+
+.companies-header {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: var(--primary-text-color);
+}
+
+.logos {
+    justify-content: space-between;
+}
+
+.godaddy {
+    height: 30px;
+}
+
+.logo {
+    max-height: 46px;
+}

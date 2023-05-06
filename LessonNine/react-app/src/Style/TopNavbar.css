@@ -1,0 +1,16 @@
+.top-navbar {
+    background-image: url('../Assets/asset\ 32.png');
+    background-color: #e74694;
+    background-size: 300px;
+}
+
+.banner-text {
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.banner-text a {
+    color: white;
+    font-weight: 300;
+    font-size: 0.9rem;
+}

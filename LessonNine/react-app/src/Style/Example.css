@@ -1,0 +1,37 @@
+.example-section {
+    padding: 40px var(--padding-inline-section);
+}
+
+.example-header {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.examples-area {
+    justify-content: space-between;
+    margin-block: 30px;
+}
+
+.examples-card {
+    width: 23%;
+    position: relative;
+    min-height: 320px;
+    border-radius: 3px;
+    background: black;
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('../Assets//asset\ 36.jpeg');
+    background-size: cover;
+    transition: 0.3s ease-out;
+}
+
+.examples-card:hover {
+    box-shadow: 0 0 10px #888;
+}
+
+.card-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
+    font-size: 20px;
+}

@@ -1,0 +1,36 @@
+@import '../App.css';
+
+.feature-section {
+    padding: 80px var(--padding-inline-section);
+    background-image: url('../Assets/asset\ 34.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.feature-header {
+    text-align: center;
+}
+
+.feature-heading {
+    font-weight: 550;
+    word-spacing: 0.5px;
+}
+
+.features-area {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.features-card {
+    flex-direction: column;
+    gap: 10px;
+    max-width: 30%;
+    text-align: center;
+}
+
+.features-card img {
+    width: 45px;
+}
